@@ -1,0 +1,6 @@
+/.vscode
+/.ipynb_checkpoints
+/data
+/features_calculated_train.csv
+/random_forest.sav
+/random_forest-201903280151.sav

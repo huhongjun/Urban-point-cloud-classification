@@ -1,0 +1,9 @@
+Ubuntu上conda虚拟环境 urban
+
+pip install git+https://github.com/daavoo/pyntcloud matplotlib sklearn ipywidgets pythreejs laspy open3d
+pip install matplotlib sklearn ipywidgets pythreejs laspy open3d
+
+pip freeze > requirements.txt
+
+# 解决找AWS Ubuntu 16.04 找不到libGL.so.1的问题
+apt-get install libgl1-mesa-dev
